@@ -109,6 +109,27 @@ h1, h2, h3 {
 }
 
 /* ==========================================================================
+   Disclaimer Banner
+   ========================================================================== */
+.disclaimer-banner {
+  background: #fff3cd;
+  border-bottom: 1px solid #f0d999;
+  color: #6b5300;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 0.9rem;
+}
+
+.disclaimer-banner p {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.disclaimer-banner strong {
+  font-weight: 700;
+}
+
+/* ==========================================================================
    Header / Nav
    ========================================================================== */
 .site-header {
